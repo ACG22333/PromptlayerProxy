@@ -1,16 +1,15 @@
 const modelMap = {
-    "gemini-2.5-pro": {
-    "provider": "google",
+  "gemini-2.5-pro": {
+    "provider": "vertexai",
     "name": "gemini-2.5-pro",
     "model_config_display_name": null,
     "parameters": {
-      "response_format": {
-        "type": "text"
-      },
-      "maxOutputTokens": 50000,
       "temperature": 1,
-      "topP": 0,
-      "topK": 0
+      "seed": 0,
+      "response_format": null,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0
     }
   },
   "claude-3-7-sonnet-20250219": {
