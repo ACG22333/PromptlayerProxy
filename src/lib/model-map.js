@@ -4,12 +4,11 @@ const modelMap = {
     "name": "gemini-2.5-pro",
     "model_config_display_name": null,
     "parameters": {
-      "temperature": 1,
-      "seed": 0,
-      "response_format": null,
-      "top_p": 1,
-      "frequency_penalty": 0,
-      "presence_penalty": 0
+      "response_format": {
+        "type": "text"
+      },
+      "reasoning_effort": "high",
+      "max_completion_tokens": 100000
     }
   },
   "claude-3-7-sonnet-20250219": {
