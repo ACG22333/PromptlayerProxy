@@ -4,6 +4,9 @@ const modelMap = {
     "name": "gemini-2.5-pro",
     "model_config_display_name": null,
     "parameters": {
+      "response_format": {
+        "type": "text"
+      },
       "maxOutputTokens": 50000,
       "temperature": 1,
       "topP": 0,
