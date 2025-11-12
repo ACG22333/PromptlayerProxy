@@ -9,8 +9,8 @@ const modelMap = {
       "stopSequences": null,
       "maxOutputTokens": 50000,
       "temperature": 1,
-      "topP": 0.95,
-      "topK": 50
+      "topP": 0,
+      "topK": 0
     }
   },
   "claude-3-7-sonnet-20250219": {
