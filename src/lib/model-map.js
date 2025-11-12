@@ -1,4 +1,18 @@
 const modelMap = {
+    "gemini-2.5-pro": {
+    "provider": "google",
+    "name": "gemini-2.5-pro",
+    "model_config_display_name": null,
+    "parameters": {
+      "response_format": null,
+      "candidateCount": 1,
+      "stopSequences": null,
+      "maxOutputTokens": 50000,
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 50
+    }
+  },
   "claude-3-7-sonnet-20250219": {
     "provider": "anthropic",
     "name": "claude-3-7-sonnet-latest",
@@ -36,6 +50,29 @@ const modelMap = {
   "claude-sonnet-4-20250514-thinking": {
     "provider": "anthropic",
     "name": "claude-sonnet-4-20250514",
+    "model_config_display_name": null,
+    "parameters": {
+      "max_tokens": 64000,
+      "thinking": {
+        "type": "enabled",
+        "budget_tokens": 32000
+      }
+    }
+  },
+    "claude-sonnet-4-5-20250929": {
+    "provider": "anthropic",
+    "name": "claude-sonnet-4-5-20250929",
+    "model_config_display_name": null,
+    "parameters": {
+      "max_tokens": 64000,
+      "temperature": 1,
+      "top_k": 0,
+      "top_p": 0
+    }
+  },
+  "claude-sonnet-4-5-20250929-thinking": {
+    "provider": "anthropic",
+    "name": "claude-sonnet-4-5-20250929",
     "model_config_display_name": null,
     "parameters": {
       "max_tokens": 64000,
